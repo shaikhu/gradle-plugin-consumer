@@ -1,0 +1,15 @@
+plugins {
+  id 'java'
+  id 'org.sonatype.gradle.plugins.scan' version '2.7.0'
+}
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  implementation 'org.apache.xmlgraphics:batik-transcoder:1.7'
+  implementation 'commons-collections:commons-collections:3.2.2'
+  testImplementation 'junit:junit:4.13'
+}
+
